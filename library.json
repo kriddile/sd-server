@@ -1,0 +1,24 @@
+{
+    "name": "SDServer",
+    "version": "1.0.0",
+    "description": "An Arduino library that creates a simple web server that serves the contents of an SD card over Wi-Fi and allows uploading files to the SD card via a web form.",
+    "keywords": "wifi, sd, card, web, server, arduino",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/kriddile/sd-server.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Kenny Riddile",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "dependencies": {
+      "greiman/SdFat": "^2.2.2"
+    },
+    "frameworks": ["arduino"],
+    "platforms": "*"
+  }
